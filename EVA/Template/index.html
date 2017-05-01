@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="../assets/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <img id="bg-1" src="../assets/bg-1.png" alt="">
+    <div class="container">
+      <!-- 导航 -->
+      <nav class="navbar navbar-default navbar-inverse" role="navigation"><!-- navbar-fixed-top --> <!--http://www.runoob.com/bootstrap/bootstrap-navbar.html  -->
+      <div class="container-fluid" style="relative">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse"
+          data-target="#EVA-navbar">
+          <span class="sr-only">切换导航</span>
+          <span class="icon-bar>"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">EVA</a>
+        </div>
+        <div class="collapse navbar-collapse" id="EVA-navbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">首页</a> </li>
+            <li><a href="about.html">关于</a></li>
+            <li><a href="login.html">登录</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--轮播图-->
+    <div id="EVA-carousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <!-- <ol class="carousel-indicators">
+        <li data-target="#EVA-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#EVA-carousel" data-slide-to="1"></li>
+        <li data-target="#EVA-carousel" data-slide-to="2"></li>
+      </ol> -->
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="../assets/banner01.jpg" alt="">
+          <div class="carousel-caption">
+          </div>
+        </div>
+        <div class="item">
+          <img src="../assets/banner02.jpg" alt="">
+          <div class="carousel-caption">
+          </div>
+        </div>
+        <div class="item">
+          <img src="../assets/banner03.jpg" alt="">
+          <div class="carousel-caption">
+          </div>
+        </div>
+      </div>
+      <!-- 左右按钮-->
+      <a class="left carousel-control" href="#EVA-carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#EVA-carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!-- 控制按钮 -->
+      <div class="thumbgroup">
+        <div id="slide1" class="col-xs-4">
+          <a href="#" class="thumbnail">
+            <img src="../assets/banner01.jpg">
+          </a>
+        </div>
+        <div id="slide2" class="col-xs-4">
+          <a href="#" class="thumbnail">
+            <img src="../assets/banner02.jpg">
+          </a>
+        </div>
+        <div id="slide3" class="col-xs-4">
+          <a href="#" class="thumbnail">
+            <img src="../assets/banner03.jpg">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--台词-->
+    <div class="case">
+      <h5>经典台词</h5>
+        <div class="row">
+          <div class="col-xs-6">
+            <img class="img-circle" src="../assets/case01.jpg">
+          </div>
+          <div class="col-xs-6">
+            <p>大人になることは近づいたり離れたりを繰り返して、お互いがあんまり傷つかずにすむ距離を見つけ出すってことに。</p>
+            <p>所谓长大成人，就是不断聚散，为了让彼此不受伤害而保持一个适当的距离。</p>
+          </div>
+          <div class="col-xs-6">
+            <p>計の針は元には戻らない。だが、自らの手で進めることは出来る。</p>
+            <p>时钟的指针无法回到原来的地方，但是未来可以靠我们自己的双手去开拓。</p>
+          </div>
+          <div class="col-xs-6">
+            <img class="img-circle" src="../assets/case02.jpg">
+          </div>
+          <div class="col-xs-6">
+            <img class="img-circle" src="../assets/case03.jpg">
+          </div>
+          <div class="col-xs-6">
+            <p>人は他人を完全に理解することは出来ない。</p>
+            <p>人类是无法完全相互理解的。</p>
+          </div>
+        </div>
+     </div>
+      <!-- 诗篇 -->
+      <div class="poet">
+        <video id="BGM" controls="" autoplay="autoplay" name="media"><source src="../assets/高橋洋子 - 無限抱擁.mp3?file=sound.mp3&amp;backColor=990000&amp;frontColor=ddddff&amp;repeatPlay=true&amp;songVolume=30" type="audio/mpeg"></video>
+        <h5>我们要跨越的是谜样的天空</h5>
+          <p>四季幹涸的 都市叢林中</p>
+          <p>除了喧囂惱的蟬叫聲外  什麽也聽不見</p>
+          <p>除了肆虐萬物的烈陽外  什麽也聽不見</p>
+          <p></p>
+          <p>在空蕩蕩的十字路口   猛然回頭 </p>
+          <p>唯壹看到的   只有妳那模糊的臉龐</p>
+          <p></p>
+          <p>我想向妳招手  但我只殘留隨時會流失的體溫 </p>
+          <p>還有壹股似有似無的風  在我身後催促著</p>
+          <p></p>
+          <p>我們無法相互接觸   也無法相互守護</p>
+          <p>然而  不管路有多麽漫長  我們壹定會有相會的壹天吧</p>
+          <p></p>
+          <p>我們要跨越的是謎樣的天空</p>
+          <p>夕陽熊熊燃燒而落  即使沈入大樓之中</p>
+          <p>也會抵達看不見   夜之彼方</p>
+      </div>
+      <!-- 底部 -->
+      <div class="footer">
+        版权所有2017
+        <a href="">EVA同好协会</a>
+      </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../js/index.js"></script>
+  </body>
+</html>

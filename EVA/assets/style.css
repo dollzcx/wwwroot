@@ -1,0 +1,69 @@
+body{
+  background: #333;
+  font-family: "黑体";
+  color: #fff;
+  position: relative;
+}
+h5,.nav.navbar-nav>li>a,.nav.navbar-nav>li.active>a,.navbar-inverse a.navbar-brand{
+  color: #89CC73;
+  font-weight: bolder;
+}
+.carousel-inner > .item > img {
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+}
+.navbar{
+  margin: 0 auto 10px;
+  border-radius: 0;
+  color: #89CC73;
+}
+.thumbgroup{
+  position: absolute;
+  bottom: 0;left: 15%;
+  width: 70%;
+}
+.thumbgroup>div{
+  padding:0;
+  opacity: 0.5;
+  transition: 0.5s linear;
+}
+.thumbgroup>div:hover{
+  opacity:1;
+}
+.thumbgroup>div>a{
+    margin: 0;
+}
+.case,.poet {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background: #222;
+}
+.case img {
+  height:160px;
+}
+
+
+.case p{
+  font-family: "黑体";
+  width: 160px;
+  margin:10px auto;
+}
+#bg-1{
+  position: absolute;
+  bottom: 0;right: 0;
+  width: 300px;
+  z-index:0;
+  opacity: 0.3;
+}
+.poet p{
+  font-family: "楷体";
+}
+.footer{
+  text-align: center;
+}
+#BGM{
+  background: #000;
+  z-index: 1100;
+}
